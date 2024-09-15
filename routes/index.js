@@ -165,7 +165,7 @@ app.post("/addNewJob", async (req, res) => {
 
   try {
     const response = await axios.post(
-      `http://localhost:3000/addNewJob`,
+      `http://103.211.219.31:3000/addNewJob`,
       jobData
     );
  
