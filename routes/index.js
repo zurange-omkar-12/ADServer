@@ -143,7 +143,7 @@ app.set("views", path.join(process.cwd(), "../views")); //This line sets the dir
 
 app.get("/", async (req, res) => {
   try {
-    const preData = await axios.get(`http://localhost:3000/addJob`);
+    const preData = await axios.get(`http://103.211.219.31:3000/addJob`);
 
    // console.log(preData.data);
 
